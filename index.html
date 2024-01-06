@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <fieldset>
+            <legend>Your Address</legend>
+    
+            <span>
+                <label for="first">First Name</label>
+                <input type="text" name="first" id="first">
+            </span>
+           
+            <span>
+                <label for="last">Last Name</label> 
+                <input type="text" name="last" id="last">
+            </span>
+           
+            <span>
+                <label for="street">Street</label>
+                <input type="text" name="street" id="street">
+            </span>
+
+            <span>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city">
+            </span>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Additional details</legend>
+    
+            <span>
+                <label for="bio">Biography</label>
+                <textarea name="bio" id="bio" cols="20" rows="3"></textarea>
+            </span>
+           
+            <span>
+                <label for="image">Image</label>
+                <input type="file" name="image" id="image" accept=".jpg, .png, ,jpeg, .svg">
+            </span>
+            
+            <span>
+                <label for="age-group">Age group</label>
+                <select name="age-group" id="age">
+                    <option value="0-9">0 to 9 years</option>
+                    <option value="10-15">10 to 15 years</option>
+                    <option value="16-20">16 to 20 years</option>
+                    <option value="21-30">21 to 30 years</option>
+                    <option value="31-40">31 to 40 years</option>
+                    <option value="41>">41 years and above</option>
+                </select>
+            </span>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Interests</legend>
+    
+            <span>
+                <label for="hobbies">Hobbies</label>
+                <aside>
+                    <option>Playing soccer</option>
+                    <option>Dancing</option>
+                    <option>Gardening</option>
+                    <option>Watching movies</option>
+                </aside>
+            </span>
+          
+            <span>
+                <label for="car">Favourite car?</label>
+                <select name="model" id="model">
+                    <option value="volvo">Volvo</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="mercerdes">Mercerdes</option>
+                    <option value="honda">Honda</option>
+                    <option value="bmw">BMW</option>
+                </select>
+            </span>
+            
+            <span>
+                <label for="transport">Favourite public transport?</label>
+                <aside name="transport" id="transport">
+                    <optgroup label="Ground">
+                        <option value="train">Train</option>
+                        <option value="rail">Rail</option>
+                    </optgroup>
+                    <optgroup label="Water"></optgroup>
+                </aside>
+            </span>
+        </fieldset>  
+</body>
+</html>

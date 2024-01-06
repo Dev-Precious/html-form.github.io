@@ -1,0 +1,43 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+    fieldset{
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: .3em;
+    }
+
+        span{
+            display: flex;
+        }
+
+            label{
+                width: 20em;
+            }
+            
+            aside{
+                border: 0.01em solid black;
+                padding: .5em;
+            }
+
+                optgroup{
+                    text-align: left;
+                    option{
+                        text-align: center;
+                    }
+                }
